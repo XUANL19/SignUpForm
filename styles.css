@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #108693;  /* border-width; border-style; border-color */
+    box-shadow: 0 0 5px rgba(63, 190, 204, 0.5);
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-row input {
+    width: 48%;
+}
+
+.terms {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.terms-left {
+    display: flex;
+    flex-direction: left;
+    align-items: center;
+    font-size: 12px;
+    white-space: nowrap;
+    margin-left: -1rem;
+    font-weight: bold;
+    /* width: 25%; */
+}
+
+.terms-right {
+    display: flex;
+    align-items: center;
+    flex-direction: right;
+    font-size: 11px;
+    width: 70%;
+}
+
+.button-like-text {
+    background-color: rgb(44, 136, 212);
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    font-size: 9px;
+    padding: 0.1rem 0.2rem;
+}
+
+a {
+    color: #27bdce;
+    text-decoration: none;
+}
+
+.register {
+    background-color: rgb(44, 136, 212);
+    color: #ffffff;
+}
+
+.signin {
+    background-color: #34b251;
+    color: #ffffff;
+}
